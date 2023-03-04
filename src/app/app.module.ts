@@ -9,11 +9,8 @@ import { TextComponent } from './text/text.component';
 import { HomeComponent } from './pages/home/home.component';
 import { DistrictComponent } from './pages/district/district.component';
 import { LoginComponent } from './pages/login/login.component';
-import { SignupComponent } from './pages/signup/signup.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
-import { AlappuzhaComponent } from './pages/alappuzha/alappuzha.component';
 import { FormsModule } from '@angular/forms';
-
 
 @NgModule({
   declarations: [
@@ -24,17 +21,10 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     DistrictComponent,
     LoginComponent,
-    SignupComponent,
     HomePageComponent,
-    AlappuzhaComponent
-  
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FormsModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

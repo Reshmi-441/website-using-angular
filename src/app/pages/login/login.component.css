@@ -6,14 +6,15 @@ body{
 	align-items: center;
 	min-height: 100vh;
 	font-family: 'Jost', sans-serif;
-	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+	background:#573b8a
 }
 .main{
+	margin-left: 36%;
 	width: 350px;
 	height: 500px;
 	background: red;
 	overflow: hidden;
-	background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
+	background: url("../../../assets/images/log1.jpg");
 	border-radius: 10px;
 	box-shadow: 5px 20px 50px #000;
 }
@@ -37,7 +38,7 @@ label{
 }
 input{
 	width: 60%;
-	height: 20px;
+	height: 40px;
 	background: #e0dede;
 	justify-content: center;
 	display: flex;
@@ -69,10 +70,11 @@ button:hover{
 }
 .login{
 	height: 460px;
-	background: #eee;
-	border-radius: 60% / 10%;
+	background-image: url("../../../assets/images/img back.jpg");
+	background-size: cover;
 	transform: translateY(-180px);
 	transition: .8s ease-in-out;
+	border-radius: 14%;
 }
 .login label{
 	color: #573b8a;
@@ -87,4 +89,11 @@ button:hover{
 }
 #chk:checked ~ .signup label{
 	transform: scale(.6);
+}
+.big{
+	margin:0%;
+	height: 100vh;
+	width: 100vw;
+	background-image: url("../../../assets/images/img back.jpg");
+	background-size: cover;
 }
