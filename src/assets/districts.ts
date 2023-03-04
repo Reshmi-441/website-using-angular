@@ -1,7 +1,8 @@
 export const districtDetails = [
     {
         name:'ALAPPUZHA',
-        image:'alappuzha.jpg'
+        image:'alappuzha.jpg',
+        id:'alappuzha'
         },
     {
         name: 'ERNAKULAM',

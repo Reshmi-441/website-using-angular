@@ -8,4 +8,4 @@ import { districtDetails } from 'src/assets/districts';
 export class DistrictComponent {
   data = districtDetails
 
-}
+  }

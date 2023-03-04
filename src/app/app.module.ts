@@ -11,6 +11,9 @@ import { DistrictComponent } from './pages/district/district.component';
 import { LoginComponent } from './pages/login/login.component';
 import { SignupComponent } from './pages/signup/signup.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
+import { AlappuzhaComponent } from './pages/alappuzha/alappuzha.component';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -22,11 +25,14 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
     DistrictComponent,
     LoginComponent,
     SignupComponent,
-    HomePageComponent
+    HomePageComponent,
+    AlappuzhaComponent
+  
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
